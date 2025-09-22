@@ -3,14 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from './assets/img/dc-logo.png'
 import AppHeader from './assets/components/AppHeader'
+import AppMain from './assets/components/AppMain'
 function App() {
 
   return (
     <>
       <AppHeader />
-      <main>
-        <h2>--&gt; Content goes here &lt;--</h2>
-      </main>
+      <AppMain />
       <section className='blueBar'>
         <ul>
           <li>DIGITAL COMICS</li>
