@@ -2,30 +2,12 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from './assets/img/dc-logo.png'
-
+import AppHeader from './assets/components/AppHeader'
 function App() {
 
   return (
     <>
-      <header>
-        <div className='logo'>
-          <img src={logo} alt="DC logo" />
-        </div>
-        <nav>
-          <ul>
-            <li>CHARACTERS</li>
-            <li>COMICS</li>
-            <li>MOVIES</li>
-            <li>TV</li>
-            <li>GAMES</li>
-            <li>COLLECTIBLES</li>
-            <li>VIDEOS</li>
-            <li>FANS</li>
-            <li>NEWS</li>
-            <li>SHOP</li>
-          </ul>
-        </nav>
-      </header>
+      <AppHeader />
       <main>
         <h2>--&gt; Content goes here &lt;--</h2>
       </main>
@@ -90,12 +72,10 @@ function App() {
             <button>SIGN-UP NOW!</button>
             <div className="social">
               <span>FOLLOW US</span>
-              {/* Qui potrai mettere le icone delle social img */}
+              {/* Qui mettere le icone delle social img */}
             </div>
           </div>
         </div>
-
-
       </footer>
     </>
   )
