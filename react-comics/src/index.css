@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans Variable', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* LOGO */
+header .logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* NAVIGATION */
+header nav ul {
+    list-style: none;
+    /* rimuove i pallini */
+    display: flex;
+    gap: 25px;
+    /* spazio tra voci */
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+
+}
+
+header nav ul li:hover {
+    color: #0282f9;
+    border-bottom: 3px solid #0282f9;
+}
+
+.contents {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.blueBar {
+    background-color: #0282f9;
+    color: #ffffff;
+    padding: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.blueBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    /* spazio tra gli elementi */
+    margin: 0;
+    padding: 0;
+}
+
+.blueBar li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.blueBar li:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* Icone */
+.blueBar img {
+    width: 45px;
+    height: auto;
+    object-fit: contain;
+}
+
+main {
+    /* Sfondo principale */
+    background-image: url('./assets/img/dc-logo-bg.png'), url('./assets/img/footer-bg.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right center, center center;
+    background-size: 40%, cover;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 60px 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Contenitore delle colonne */
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 900px;
+}
+
+/* Titoli di sezione (DC COMICS, DC, SITES, SHOP) */
+.links h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Liste */
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    font-size: 0.85rem;
+    color: #b3b3b3;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.links li:hover {
+    color: white;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 25px 80px;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #303030;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* BOTTONE SIGN-UP */
+footer button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0282f9;
+    padding: 12px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+}
+
+footer button:hover {
+    background-color: #0282f9;
+}
+
+/* SEZIONE SOCIAL */
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social span {
+    color: #0282f9;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
