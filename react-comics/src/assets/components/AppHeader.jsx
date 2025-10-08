@@ -1,4 +1,6 @@
 import logo from '../img/dc-logo.png'
+import AppNav from './AppNav'
+import menu from '../components/data/header_menu'
 export default function AppHeader() {
     return (
         <>
@@ -6,20 +8,7 @@ export default function AppHeader() {
                 <div className='logo'>
                     <img src={logo} alt="DC logo" />
                 </div>
-                <nav>
-                    <ul>
-                        <li>CHARACTERS</li>
-                        <li>COMICS</li>
-                        <li>MOVIES</li>
-                        <li>TV</li>
-                        <li>GAMES</li>
-                        <li>COLLECTIBLES</li>
-                        <li>VIDEOS</li>
-                        <li>FANS</li>
-                        <li>NEWS</li>
-                        <li>SHOP</li>
-                    </ul>
-                </nav>
+                <AppNav menu={menu} />
             </header>
         </>
     )
