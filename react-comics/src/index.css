@@ -118,6 +118,7 @@ main {
 }
 
 
+
 /* Contenitore delle colonne */
 .links {
     display: flex;
@@ -154,6 +155,12 @@ main {
 
 .links li:hover {
     color: white;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+
 }
 
 footer {
