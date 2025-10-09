@@ -1,4 +1,4 @@
-export default function MainNav({ mainMenu }) {
+export default function AppMainNav({ mainMenu }) {
     return (
         <div className="links">
             {mainMenu.map(section => (

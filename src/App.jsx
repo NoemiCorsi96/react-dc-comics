@@ -13,10 +13,10 @@ function App() {
 
   return (
     <>
-      <AppHeader />
+      <AppHeader menu={menu} />
       <AppContent />
       <AppBar />
-      <AppMain />
+      <AppMain mainMenu={mainMenu} />
       <AppFooter />
     </>
   )
