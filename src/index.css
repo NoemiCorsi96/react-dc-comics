@@ -280,7 +280,7 @@ footer button:hover {
     /* Spazio tra le card */
     padding: 1rem;
     /* Spazio intorno alla griglia */
-    width: 650px;
+    width: 700px;
     /* larghezza fissa */
     margin: 0 auto;
 }
@@ -294,7 +294,7 @@ footer button:hover {
 
 .comic-card img {
     width: 100%;
-    height: 140px;
+    height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
     object-position: center top;

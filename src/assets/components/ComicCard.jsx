@@ -1,11 +1,11 @@
-export default function ComicCard(props) {
-    console.log(props);
+export default function ComicCard({ image, series }) {
+
 
     return (
 
         <div className="comic-card">
-            <img src={props.image} alt="" />
-            <h5>{props.name}</h5>
+            <img src={image} alt="" />
+            <h5>{series}</h5>
         </div>
 
     )

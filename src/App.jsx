@@ -9,12 +9,13 @@ import AppMain from './assets/components/AppMain'
 import AppFooter from './assets/components/AppFooter'
 import menu from './assets/components/data/header_menu'
 import mainMenu from './assets/components/data/main_menu'
+import list_comics from './assets/components/data/list_comics'
 function App() {
 
   return (
     <>
       <AppHeader menu={menu} />
-      <AppContent />
+      <AppContent list_comics={list_comics} />
       <AppBar />
       <AppMain mainMenu={mainMenu} />
       <AppFooter />
